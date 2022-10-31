@@ -1,0 +1,416 @@
+                        :root {
+                            --web1-pink: #FA97C2;
+                            --web1-blue: #2FA0D5;
+                            --web1-green: #73C926;
+                        }
+
+                        body {
+                            font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+                            font-size: 16px;
+                            line-height: 20px;
+                        }
+
+                        h1,
+                        h2,
+                        h3,
+                        h4 {
+                            font-family: 'Changa One', cursive;
+                            font-weight: 400;
+                        }
+
+                        h1 {
+                            font-size: 60px;
+                            line-height: 60px;
+                            font-weight: 900;
+                        }
+
+                        /* header*/
+
+                        #menu-header a {
+                            display: block;
+                            padding: 0 1.25rem;
+                            font-weight: bold;
+                            color: black;
+                            font-family: 'Changa One', cursive;
+                        }
+
+                        #menu-header li a:hover,
+                        #menu-header li.active a {
+                            color: var(--web1-blue);
+                        }
+
+                        #formSearch i {
+                            color: var(--web1-green)
+                        }
+
+                        #formSearch input {
+                            width: 8rem;
+                        }
+
+
+                        /*banner*/
+
+                        #banner {
+                            background-image: url(../images/bg-banner.gif)
+                        }
+
+                        #banner>div {
+                            background: url('../images/logo_bg.png') left top no-repeat, url('../images//search_bg.png') right top no-repeat;
+                            padding: 5rem 0 3rem 0;
+                        }
+
+                        #banner a {
+                            background-color: var(--web1-pink);
+                            font-family: 'Changa One', cursive;
+                            font-size: 2rem;
+                        }
+
+                        #banner .carousel-item {
+                            min-height: 15rem;
+                        }
+
+                        #banner h4 {
+                            font-size: 60px;
+                            line-height: 60px;
+                            font-family: 'Changa One', cursive;
+                            font-weight: 900;
+                            letter-spacing: 1px;
+                        }
+
+                        #banner .carousel-indicators li {
+                            width: 1.2rem;
+                            height: 1.2rem;
+                            border-radius: 1.2rem;
+                            border: none;
+                            margin: 0 0.25rem;
+                        }
+
+                        #banner .carousel-indicators li span {
+                            position: absolute;
+                            top: 0.3rem;
+                            left: 0.3rem;
+                            width: 0.6rem;
+                            height: 0.6rem;
+                            border-radius: 0.6rem;
+                            border: none;
+                            text-align: left;
+                            text-indent: -9999px;
+                        }
+
+                        #banner .carousel-indicators li.active span {
+                            background-color: var(--web1-green);
+                        }
+#banner-small{
+    background-image: url('../images/bg-banner.gif');
+    padding: 5px;
+}
+                        #btn-menu {
+                            display: inline-block;
+                            font: 30px 'Changa One', cursive;
+                            background-color: #FA97C2;
+                            line-height: 36px;
+                            padding: 14px 62px;
+                            border-radius: 14px;
+                            text-transform: uppercase;
+                            text-decoration: none;
+                            margin: 30px 0;
+                            color: white;
+                        }
+
+                        #dots {
+                            list-style: none;
+                            padding: 0;
+                            text-align: center;
+                            height: 19px;
+                            line-height: 19px;
+                            ;
+                        }
+
+                        #dots li {
+                            display: inline-block;
+                            width: 19px;
+                            height: 19px;
+                            border-radius: 19px;
+                            text-align: left;
+                            text-indent: 9999px;
+                            background: white;
+                            margin: 0 2px;
+                            position: relative;
+                        }
+
+                        #dots li span {
+                            border-radius: 9px;
+                            width: 9px;
+                            height: 9px;
+                            position: absolute;
+                            top: 5px;
+                            left: 5px;
+                        }
+
+                        #dots li.current span,
+                        #dots li:hover span {
+                            box-shadow: 0;
+                            background: #73C926;
+                        }
+
+                        /*main*/
+
+                        h4 {
+                            font-family: 'Changa One', cursive;
+                            font-weight: 400;
+                            color: #333333;
+                            font-size: 26px;
+                            margin: 10px 0;
+                        }
+
+                        a.readmore {
+                            text-decoration: underline;
+                            color: #2FA0D5;
+                        }
+
+                        /*about us*/
+
+                        .about {
+                            background: #FA97C2;
+                            color: #814E64;
+                        }
+
+                        h3 {
+                            font-family: 'Changa One', cursive;
+                            font-size: 30px;
+                            font-weight: 400;
+                            color: black;
+                            margin: 10px 0;
+                        }
+
+                        .about div>img {
+                            float: left;
+                            margin: 20px;
+                        }
+
+                        #frm-signup {
+                            border: 3px dashed #814e64;
+                            padding: 20px 10px;
+                            border-radius: 10px;
+                            overflow: auto;
+                        }
+
+                        #frm-signup h3 {
+                            font-size: 30px;
+                            line-height: 28px;
+                            text-align: center;
+                            margin: 0;
+                            padding-bottom: 20px;
+                            color: white;
+                        }
+
+                        #frm-signup input {
+                            width: 100%;
+                            border: none;
+                            border-radius: 5px;
+                            height: 38px;
+                            padding: 10px;
+                            box-shadow: 0 0 0;
+                            margin-top: 6px 0;
+                        }
+
+                        #frm-signup button {
+                            float: right;
+                            border: none;
+                            border-radius: 14px;
+                            color: white;
+                            background: #333333;
+                            font: 22px 'Changa One', cursive;
+                            text-transform: uppercase;
+                            line-height: 26px;
+                            padding: 10px 34px;
+                        }
+
+                        /*news*/
+
+                        .date {
+                            text-align: center;
+                            background: #73C926;
+                            color: white;
+                            font: 30px 'Changa One', cursive;
+                            line-height: 30px;
+                            padding: 8px 0;
+                            border-radius: 14px;
+                            margin: 10px 0;
+                        }
+
+                        /*footer*/
+
+                        footer {
+                            background: url(../images/bg.gif) 0 center repeat;
+                            text-align: center;
+                            padding: 20px;
+                            margin-top: 20px;
+                        }
+
+                        footer li {
+                            display: inline-block;
+                            padding: 0 90px 15px 0;
+                        }
+
+                        footer a {
+                            color: #7c7c7c;
+                            text-decoration: none;
+                        }
+
+                        footer nav a,
+                        footer a:hover {
+                            color: white;
+                            text-decoration: none;
+                        }
+
+                        footer nav a:hover,
+                        footer nav .active a {
+                            color: #FA97C2;
+                        }
+
+                        /*about page*/
+
+                        #small-banner {
+                            background: url(../images/bg_slider.gif) center top repeat;
+                            padding: 0.25em;
+                            content: "";
+                        }
+
+                        .round-img {
+                            border: none;
+                            border-radius: 15px;
+                            float: left;
+                            margin-right: 15px;
+                        }
+
+                        #testimonials .col {
+                            background: url(../images/quot.png) top left no-repeat;
+                            padding-left: 50px;
+                        }
+
+                        #testimonials {
+                            padding-left: -10px;
+                        }
+
+                        .image-rounded {
+                            border: none;
+                            border-radius: 10px;
+                        }
+
+                        /*menu*/
+                        /*blog*/
+
+                        .blog-img {
+                            border: none;
+                            border-radius: 10px;
+                            float: left;
+                            margin-right: 15px;
+                        }
+
+                        /*contacts*/
+                        /*blog*/
+
+                        .blog-list {
+                            list-style-type: none;
+                            padding-left: 0;
+                        }
+
+                        .blog-list li {
+                            padding-bottom: 10px;
+                            padding-left: 24px;
+                            background: url(../images/marker1.png) 0 4px no-repeat;
+                        }
+
+                        .blog-list a {
+                            color: #7c7c7c;
+                            text-decoration: none;
+                        }
+
+                        .blog-list a:hover {
+                            color: #73C926;
+                        }
+
+                        .blog {
+                            clear: both;
+                        }
+
+                        html,
+                        body {
+                            width: 100%;
+                            height: 100%;
+                        }
+
+                        .scroll {
+                            height: 100%;
+                        }
+
+                        #map {
+                            height: 100%;
+                        }
+
+                        /*products*/
+                        .readmore {
+                            color: var(--web1-blue);
+                        }
+
+                        /*Aboutus*/
+                        #aboutus {
+                            background-color: var(--web1-pink);
+                        }
+
+                        #formSignup {
+                            border-style: dashed !important;
+                            border-color: rgba(0, 0, 0, 0.5) !important;
+                        }
+
+                        /* news*/
+                        #news .date {
+                            background-color: var(--web1-green);
+                            width: 6rem;
+                            padding: 1.5rem;
+
+                        }
+
+                        /* footer */
+                        footer {
+                            background-image: url("../images/bg-footer.gif");
+                        }
+
+                        #menu-footer a {
+                            color: white;
+                            font-weight: bold;
+                            font-family: 'Changa One', cursive;
+                            display: block;
+                            padding: 0 2rem;
+                        }
+
+                        #menu-footer a.active {
+                            color: var(--web1-pink);
+                        }
+
+                        /* Modal Login */
+                        #formLogin button[type='submit'] {
+                            background-color: var(--web1-blue);
+                            color: white;
+                        }
+                        /* Testimonials*/
+                        #testimonials{
+                            background-color: var(--web1-pink);
+                        }
+                        /*blogs*/
+                        #blogs-categories li{
+                            list-style-type: none;
+                            background: url('../images/marker1png') 0 0.25rem no-repeat;
+                            padding: 0 0 0.75rem 1.5 rem;
+                        }
+                        /* Contacts*/
+                        #map
+                        { 
+                            height: 400px;
+                            width: 100%;
+                        }
+                        .btn-primary{
+                            background-color: var(--web1-blue);
+                            border: none;
+                        }
